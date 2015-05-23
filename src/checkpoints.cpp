@@ -38,18 +38,19 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (  0,     uint256("0x000000042864103f8cd5cb2c644e71bdc109e80249fae4ec5d0e384c884ff2dd"))
-		( 11,     uint256("0x000003a374c9ca8a716b6571979e1c418e4ea037454be04f3387ab315a08b634"))
-		( 1000,     uint256("0x0000004099a8069fbc4f6fb9466c0225fd07f70b36b777115714dc0285641855"))
-		( 3000,     uint256("0x000000037443d76359e5606b3ed18418c393c895ed503ed54d303c8d49d8c59c"))
-		( 12480,     uint256("0x000000000da492e831e32f2feead6c1b1c5cb89a9d9b756452294c0623e6bca0"))
-		( 370000,     uint256("0x000000000dfaa73f30a5b8c0c728e9c1366c9cc398ab4c224546ba3e97606ccf"))
-		( 938110,     uint256("0x0000000006266af59eb829b88c8510017282f1726f17bf764aea91a135825a71"))
+        (      0,     uint256("0x000000042864103f8cd5cb2c644e71bdc109e80249fae4ec5d0e384c884ff2dd"))
+	(     11,     uint256("0x000003a374c9ca8a716b6571979e1c418e4ea037454be04f3387ab315a08b634"))
+	(   1000,     uint256("0x0000004099a8069fbc4f6fb9466c0225fd07f70b36b777115714dc0285641855"))
+	(   3000,     uint256("0x000000037443d76359e5606b3ed18418c393c895ed503ed54d303c8d49d8c59c"))
+	(  12480,     uint256("0x000000000da492e831e32f2feead6c1b1c5cb89a9d9b756452294c0623e6bca0"))
+	( 370000,     uint256("0x000000000dfaa73f30a5b8c0c728e9c1366c9cc398ab4c224546ba3e97606ccf"))
+	( 938110,     uint256("0x0000000006266af59eb829b88c8510017282f1726f17bf764aea91a135825a71"))
+	(1674606,     uint256("0x00000000002305befbe0a620ec307d5e0f804a1bf20545b2a9adb4d84ab08dc6"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1417261726, // * UNIX timestamp of last checkpoint block
-        973346,    // * total number of transactions between genesis and last checkpoint
+        1432085038, // * UNIX timestamp of last checkpoint block
+        1766532,    // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         2880.0      // * estimated number of transactions per day after checkpoint
     };
